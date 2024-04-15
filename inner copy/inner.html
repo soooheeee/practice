@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = 'innerT'>innerText</h1>
+    <h1 id = 'innerH'>innerHTML</h1>
+    <script>
+        const innerT = document.querySelector('#innerT');
+        innerT.innerText = "<div style='color:red'>innerText</div>";
+        console.log(innerT);
+
+        const innerH = document.querySelector('#innerH');
+        innerH.innerHTML = "<div style='color:red'>innerHTML</div>";
+        console.log(innerH);
+    </script>
+</body>
+</html>
