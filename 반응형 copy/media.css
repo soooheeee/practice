@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 10%; /* 부모 요소의 크기 */
+    margin: auto;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 200px; /* 고정 높이 */
+}
+
+.percent-box {
+    background-color: skyblue;
+    width: 30%; /* 부모 .container의 너비의 30% */
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vw-box {
+    background-color: coral;
+    width: 30vw; /* 뷰포트 너비의 30% */
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
