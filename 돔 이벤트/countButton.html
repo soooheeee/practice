@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="countBtn">0</button>
+    <script>
+        let count = 0;
+        const button = document.querySelector('#countBtn');
+
+        button.addEventListener('click', () => {
+            count +=1;
+            button.innerText = count;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=!, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="password" />
+    <button id="login-btn">Login</button>
+    <div id="result"></div>
+
+    <script>
+      document.querySelector("#login-btn").addEventListener("click", () => {
+        const pw = document.querySelector("#password").value;
+        document.querySelector("#result").innerHTML = pw;
+      });
+      // 이미지 로드를 실패하게 되면 onerror 이벤트 핸들러 실행이 되고 js코드를 트리거 시킴
+
+      //<img src="#" onerror="alert('hello')">
+    </script>
+  </body>
+</html>

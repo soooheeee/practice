@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="clickButton">클릭</button>
+    <script>
+        const button = document.querySelector('#clickButton');
+
+        button.onclick = () => console.log('onclick:첫 번째 메시지!');
+        button.onclick = () => console.log('onclick:두 번째 메시지!');
+
+        button.addEventListener('click', () => console.log("addEventListener: 첫 번째 메시지!"));
+        button.addEventListener('click', () => console.log("addEventListener: 두 번째 메시지!"));
+
+    </script>
+</body>
+</html>
